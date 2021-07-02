@@ -86,7 +86,7 @@ plot = final.groupby(['degree', 'Protein stable ID'])['Pfam ID'].count().to_fram
 
 
 sns.boxplot(x="degree", y="Pfam ID", data=plot)
-plt.savefig('degree_barplot.png', dpi=300, bbox_inches='tight')
+plt.savefig('degree_boxplot.png', dpi=300, bbox_inches='tight')
 
 
 # In[ ]:
